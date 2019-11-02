@@ -1,0 +1,273 @@
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 219px;
+	background-color: pink;
+	margin-top: 10px;
+}
+.focus {
+	position: relative;
+	float: left;
+	width: 720px;
+	height: 455px;
+	background-color: red;
+	overflow: hidden;
+}
+.focus ul li {
+	float: left;
+}
+.focus ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 600%;
+}
+.newsflash {
+	float: right;
+	width: 250px;
+	height: 455px;
+	background-color: #fff;
+}
+.arrow-l,
+.arrow-r {
+	display: none;
+	position: absolute;
+	width: 24px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	background: rgba(0,0,0,.3);
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	z-index: 10;
+}
+.arrow-r {
+	right: 0;
+}
+.circul {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.circul li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	border: 2px solid rgba(255,255,255,0.5);
+	border-radius: 50%;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.circul .current {
+	background-color: #fff;
+}
+.news {
+	height: 163px;
+	border: 1px solid #ccc;
+}
+.lifeservice {
+	height: 208px;
+	border: 1px solid #ccc;
+	border-top: none;
+	overflow: hidden;
+}
+.lifeservice ul {
+	width: 255px;
+	
+}
+.lifeservice li {
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+ .service-ico {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(../icons.png) no-repeat;
+	margin: 10px auto;
+}
+.service-ico-huafei {
+	background-position: -17px -16px;
+}
+.lifeservice li a {
+	position: relative;
+	display: block;
+	width: 100%;
+	/*解决外边框塌陷的问题*/
+	overflow: hidden;
+	
+}
+.lifeservice li a p {
+	text-align: center;
+}
+.jian {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.bargain {
+	height: 75px;
+	margin-top: 5px;
+}
+.news-hd {
+	height: 32px;
+	padding: 15px 13px;
+	
+	border-bottom: 1px dashed #ccc;
+}
+.news-hd span {
+	float: left;
+	font-size: 14px;
+	color: #333;
+}
+.news-hd a {
+	float: right;
+	font-size: 14px;
+	color: #333;
+}
+.news-bd {
+	height: 131px;
+	padding: 6px 0 0 15px;
+}
+.news-bd li {
+	height: 23px;
+}
+.news-bd li a {
+	font-size: 14px;
+}
+/*推荐栏*/
+.recommend {
+	height: 163px;
+	background-color: pink;
+	margin-top: 10px;
+}
+.rcmd-hd {
+	float: left;
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+}
+.rcmd-hd img {
+	margin-top: 30px;
+	margin-left: 66px;
+}
+.rcmd-hd h4 {
+	display: block;
+	margin-top: 4px;
+	margin-left: -8px;
+	text-align: center;
+	color: #dbdada;
+	font-size: 18px;
+}
+.rcmd-bd {
+	float: left;
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+.rcmd-bd .content {
+	width: 1000px;
+	height: 145px;
+	background-color: #ebebeb;
+	margin-top: 10px;
+}
+
+.rcmd-bd .content ul li {
+	float: left;
+	width: 248px;
+	height: 145px;
+	border-right: 1px solid #ccc;
+}
+.rcmd-bd .content ul  .last {
+	border-right: none;
+}
+/*推荐栏结束*/
+/*floor开始*/
+.box-hd {
+	height: 30px;
+	background-color: #fff;
+	border-bottom: 2px solid #c81623;
+	margin-top: 25px;
+}
+.box-hd h3 {
+	float: left;
+	height: 30px;
+	font-size: 18px;
+	color: #c81623
+}
+.box-hd .tab-list {
+	float: right;
+	line-height: 30px;
+}
+.box-hd .tab-list li {
+	float: left;
+}
+.tab-list li a {
+	padding: 0 15px;
+}
+.box-bd	{
+	height: 361px;
+	background-color: #fff;
+}
+.box-bd img {
+	transition: all 0.2s;
+}
+.box-bd img:hover {
+	margin-left: 8px;
+}
+.w209 {
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w329 {
+	width: 329px;
+}
+.w219 {
+	width: 219px;;
+	border-right: 1px solid #ccc;
+}
+.w219 a {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+.tab-con li {
+	float: left;
+	height: 361px;
+}
+.tab-con  .last {
+	border-right: none;
+}
+.tab-con-list li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 14px;
+	text-align: center;
+}
+/*floor结束*/
+/*侧边栏*/
+.fixedtool {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+	background-color: #fff;
+}
+.fixedtool li {
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.fixedtool li:hover {
+	background-color: #c81623;
+	color: #fff;
+}
+/*侧边栏结束*/

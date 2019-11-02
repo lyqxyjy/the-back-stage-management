@@ -1,0 +1,283 @@
+公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+@font-face {
+	font-family: 'icomoon';
+	src: url('../icomoon/fonts/icomoon.eot?7kkyc2');
+	src: url('../icommon/fonts/icomoon.eot?7kkyc2#iefix') format('embeded-opentype'),
+	url('../icommon/fonts/icomoon.ttf?7kkyc2') format('truetype'),
+	url('../icommon/fonts/icomoon.woff?7kkyc2') format('woff'),
+	url('../icommon/fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.icomoon {
+	font-family:'icomoon' ;
+}
+/*常用的颜色*/
+.style-red {
+	color: #c81623;
+}
+.spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+
+}
+/*公共顶部快捷导航栏*/
+.shortcut {
+	height: 30px;
+	background-color: #f1f1f1;
+	line-height: 30px;
+}
+	/*将整个shortcut中的li全都左浮动*/
+.shortcut li {
+	float: left;
+}
+/*公共顶部快捷导航栏结束
+/*网页头部*/
+.header {
+	height: 105px;
+	background-color: #fff;
+	position: relative;
+}
+.header .logo {
+	position: absolute;
+	left: 0;
+	top: 26px;
+	width: 172px;
+	height: 57px;
+	background-color: red;
+	/*background-image: url(img/images/logo_03.png);*/
+}
+.logo a {
+	display: block;
+	width: 172px;
+	height: 57px;
+	background:  url(../img/images/logo_03.png);
+	font-size: 0;
+}
+.search {
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.search input {
+	float: left;
+	width: 447px;
+	height: 32px;
+	border: 2px solid #b1191a;
+	padding-left: 8px;
+	color: #c1c1c1;
+}
+.search button {
+	float: left;
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	border: none;
+
+}
+.search button a {
+	background-color: #b1191a;
+	color: #fff;
+	font-style: 16px;
+}
+.hotwords {
+	position: absolute;
+	left: 359px;
+	top: 69px;
+}
+.hotwords  li {
+	float: left;
+	margin-right: 30px;
+}
+.shopcar {
+	position: absolute;
+	top: 25px;
+	right: 64px;
+	width: 138px;
+	height: 34px;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+	line-height: 34px;
+}
+.shopcar .car {
+	font-family: 'icomoon';
+	color: #da5555;
+}
+.shopcar .arrow {
+	font-family: 'icomoon';
+	margin-left: 15px;
+}
+.shopcar .count {
+	position: absolute;
+	/*文字应该是左对齐 才能向右扩展*/
+	left: 100px;
+	top: -5px;
+	height: 14px;
+	line-height: 14px;
+	background-color: #e60012;
+	padding: 3px;
+	color: #fff;
+	/*border-radius: 左上 右上 右下 左下  这里是左下为直角其余为圆角*/
+	border-radius: 7px 7px 7px 0;
+
+}
+
+/*网页头部结束*/
+/*nav开始*/
+.nav {
+		height: 46px;
+		background-color: #fff;
+		border-bottom: 2px solid #b1191a;
+	}
+.nav-left {
+	float: left;
+	width: 209px;
+	height: 46px;
+	background-color: #b1191a;
+	
+}
+.nav .nav-left .dt{
+	width: 209px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	font-size: 16px;
+}
+.nav-left  .dd {
+	height: 465px;
+	background-color: #c81623;
+}
+.nav-left  .dd li {
+	height: 31px;
+	line-height: 31px;
+	margin-bottom: ;
+	padding:0 12px;
+	transtion: all 0.5s;
+}
+.nav-left  .dd li:hover {
+	margin-left: 5px;
+}
+.nav-left  .dd li:hover {
+	border-left: 1px solid;
+	background-color: #fff;
+
+}
+.nav-left  .dd li a {
+	font-size: 14px;
+	color: #fff;
+}
+.nav-left  .dd li:hover a {
+	color: #c81623;
+}
+.nav-left  .dd li:hover i {
+	color: #c81623;
+	font-size: 24px
+}
+.nav-left  .dd li i {
+	float: right;
+	font-family: 'icomoon';
+	font-size: 18px;
+	color: #fff;
+}
+.nav-right {
+	float: left;
+	height: 46px;
+	line-height: 46px;
+}
+.nav-right ul {
+	margin-left: 40px;
+}
+.nav-right ul li {
+	float: left;
+	margin-right: 48px;
+}
+.nav-right ul li  a {
+	font-size: 16px;
+	color: #7d7d7d;
+}
+.nav-right ul li  a:hover {
+	color: #c81623;
+}
+/*nav结束*/
+/*footer开始*/
+.footer {
+	height: 416px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+}
+.mod-service {
+	height: 79px;
+	background-color:  #f5f5f5;
+	border-bottom: 1px solid #ccc;
+}
+.mod-service li {
+	float: left;
+	width: 240px;
+}
+.mod-service-icon {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(../icons.png) no-repeat ;
+	margin-left: 35px;
+}
+.mod-service-zhen {
+	background-position: -253px -3px ;
+}
+.mod-service-kuai {
+	background-position: -255px -54px ;
+}
+\
+.mod-service-tit {
+	margin-left: 5px;
+}
+.mod-service-tit h5 {
+	padding-top: 8px;
+}
+.mod-help {
+	height: 187px;
+	background-color: pink;
+	border-bottom: 1px solid #ccc;
+
+}
+.mod-help .mod-help-list {
+	float: left;
+	width: 150px;
+	padding: 20px 0 0 50px;
+}
+.mod-help-list dt {
+	height: 25px;
+	font-size: 16px;
+}
+.mod-help-list dd {
+	margin-top: 5px;
+}
+.mod-help-list  img {
+	margin-top: 8px;
+}
+.mod-help-list  h5 {
+	padding:0 5px;
+}
+.mod-copyright {
+	margin-top: 15px;
+	text-align: center;
+}
+.mod-copyright .mod-copyright-links {
+	margin-bottom: 5px;
+}
+
+/*footer结束*/

@@ -1,0 +1,316 @@
+.detial-container {
+	margin-top: 15px;
+}
+.detial-container a {
+	margin-right: 10px;
+}
+.preview-wrap {
+	float: left;
+	width: 400px;
+	height: 590px;
+	background-color: #fff;
+}
+.preview_img {
+	position: relative;
+	width: 399px;
+	border: 1px solid #ccc;
+}
+.mask {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 0;
+	left: 0;
+	background-color: yellow;
+	opacity: .5;display: none;
+	cursor: move;
+
+}
+.big {
+	position: absolute;
+	left: 410px;
+	top: 0;
+	width: 500px;
+	height: 500px;
+	z-index: 10;
+	display: none;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.big img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.preview-list {
+	position: relative;
+	height: 60px;
+	margin-top: 60px;
+	background-color: #fff;
+	padding: 0 45px;
+}
+
+.preview-list li {
+	float: left;
+	margin-left: 5px;
+
+}
+.preview-list li:hover {
+	border: 1px solid red;
+	border-top: none;
+
+}
+.preview-list .arrow-l {
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+.preview-list .arrow-r {
+	position: absolute;
+	top: 9px;
+	right: 0;
+}
+.preview-footer {
+	margin-top: 20px;
+}
+.preview-footer em {
+	margin-left: 30px;
+}
+.preview-footer i{
+	margin-left: 100px;
+}
+.info_wrap {
+	float: right;
+	width: 718px;
+}
+.info_wrap-name {
+	font-size: 16px;
+	height: 30px;
+	font-weight: 700px;
+	color: #6e6e6e;
+}
+.info_wrap-news {
+	color: red;
+	height: 30px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.summery-price,
+.summery-promotion {
+	position: relative;
+	padding: 10px 0;
+	background-color: #fee9eb;
+
+}
+.summery dl {
+	/*父级没有高，子级浮动，需要清除浮动*/
+	overflow: hidden;
+
+}
+.summery dt,
+.summery dd {
+	float: left;
+}
+.summery dt {
+	padding-left: 10px;
+	width: 60px;
+	/*因为这个盒子没有高，所以都随着最高内容的盒子为高度，这里的最高内容是price，price的高是36*/
+	line-height: 36px;
+}
+.price {
+	font-size: 24px;
+	color: #e12228;
+}
+.summery-price a {
+	color: #c81623;
+}
+.remark {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.summery-promotion em{
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	background-color: #c81623;
+	color: #fff;
+	text-align: center;
+	line-height: 22px;
+}
+.summery-promotion {
+	padding: 0;
+}
+.summery-promotion dd {
+	width: 450px;
+	line-height: 36px;
+}
+.summery-support {
+	line-height: 36px;
+}
+.choose-color a {
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 40px;
+}
+.summery .current {
+	border-color: #c81623;
+}
+.choose-rom,
+.choose-type {
+	margin-top: 10px;
+}
+.choose-rom a,
+.choose-type a {
+	display: inline-block;
+	height: 40px;
+	padding: 0 12px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 40px;
+}
+.choose-bnts {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.choose-bnts .addcount {
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 46px;
+	border: 1px solid #ccc;
+}
+
+.addcount input {
+	width: 33px;
+	height: 44px;
+	border: 1px solid #ccc;
+	line-height: 44px;
+	text-align: center;
+}
+
+.addcount .add,
+.addcount .reduce {
+position: absolute;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 22px;
+	right: 0;
+	background-color: #f1f1f1;
+	color: black;
+	margin: 0;
+}
+.addcount .add {
+	top: 0;
+	
+
+}
+.addcount .reduce {
+	bottom: 0;
+	cursor: not-allowed;
+	
+}
+.choose-bnts a {
+	margin-left: 10px;
+	float: left;
+	width: 142px;
+	height: 46px;
+	background-color: #c81623;
+	text-align: center;
+	line-height: 46px;
+	font-size: 14px;
+	color: #fff;
+}
+/*详细内容栏*/
+.aside {
+	float: left;
+	width: 208px;
+	border: 1px solid #ccc;
+}
+.aside li {
+	float: left;
+	width: 103px;
+	height: 33px;
+	border-bottom: 1px solid #ccc;
+	background-color: #f7f7f7;
+	text-align: center;
+	line-height: 33px;
+}
+.aside-right {
+	border-left: 1px solid #ccc;
+}
+
+.aside  .current {
+	background-color: #fff;
+	color: red;
+	border-bottom: none;
+}
+.aside-item {
+	padding: 0 10px;
+	width: 188px;
+}
+.aside .aside-item li {
+	width: 190px;
+	height: 237px;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+.aside-item h5 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.aside .aside-item li a {
+	display: block;
+	width: 88px;
+	height: 26px;
+	background-color: #f7f7f7;
+	text-align: center;
+	line-height: 26px;
+	margin: 10px auto;
+}
+.detial {
+	float: right;
+	width: 978px;
+	height: 1000px;
+	border: 1px solid #ccc;
+}
+.detial-list {
+	height: 39px;
+	border-bottom: 1px solid #ccc;
+	background-color: #f7f7f7;
+	
+
+}
+.detial-list li {
+	float: left;
+	padding: 0 20px;
+	line-height: 39px;
+	text-align: center;
+}
+.detial-list .current {
+	background-color: red;
+	color: #fff;
+}
+.detial-content ul {
+	padding: 20px 0 0 20px;
+}
+.detial-content li {
+	line-height: 30px;
+}
+.detial-content p {
+	float: right;
+	padding-right: 20px;
+	font-weight: 700;
+}
+.product-detial  {
+	margin-bottom: 30px;
+}

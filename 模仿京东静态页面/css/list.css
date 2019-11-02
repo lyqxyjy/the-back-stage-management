@@ -1,0 +1,131 @@
+.mx {
+	position: absolute;
+	top: 40px;
+	left: 187px;
+	height: 32px;
+	border-left: 1px solid #b1191a;
+}
+.nav-list-left {
+	float: left;
+	background-color: #fff;
+
+
+}
+.nav-list-left li {
+	float: left;
+	margin-top: 5px;
+	padding: 0 26px;
+}
+.nav-list-left li a {
+	font-size: 18px;
+	color: #000;
+	font-weight: 700;
+}
+.nav-list-right {
+	float: left;
+	height: 32px;
+}
+.nav-list-right li {
+	float: left;
+	line-height: 43px;
+	padding-left: 45px;
+}
+.nav-list-right li a {
+	font-size: 14px;
+	color: #666;
+	font-family: 'icommon';
+}
+.nav-list-right li a:hover {
+	color: #b73738;
+}
+.container-bd {
+	margin-top: 25px;
+}
+
+.container-bd li {
+	position: relative;
+	float: left;
+	width: 288px;
+	height: 458px;
+	border: 1px solid #fff;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.container-bd li:hover {
+	border-color: #e12228;
+}
+.phone-title {
+	padding: 10px 10px 10px;
+}
+.phone-price em{
+	padding-left: 10px;
+	font-size: 22px;
+	color: #e12228;
+	font-weight: 700;
+}
+.phone-progress {
+	padding: 0 10px;
+}
+.phone-progress .bar {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	margin: 0 5px;
+	border-radius:  5px;
+	border: 1px solid #e12228;
+	
+}
+ .bar_in {
+	width: 87%;
+	height: 10px;
+	background-color:  #e12228;
+}
+.phone-buy {
+	display: block;
+	height: 50px;
+	background-color: #e12228;
+	margin-top: 11px;
+	line-height: 50px;
+	text-align: center;
+	color:  #fff;
+	font-size: 20px;
+	border: 1px solid #e12228;
+}
+.page {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin-top:10px ;
+}
+.page a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+
+	background-color: #f7f7f7;
+
+}
+.page-num .pg-prev {
+	width: 83px;
+}
+.page-num .pg-next {
+	width: 83px;
+}
+.page-skip input {
+	width: 36px;
+	height: 25px;
+	text-align: center;
+	transtion: all 1s;
+}
+.page-skip input:hover {
+	width: 80px;
+	border: 1px solid skyblue;
+}
+.page-skip button {
+	width: 53px;
+	height: 25px;
+	border: 1px solid #ccc;
+}
+
