@@ -1,0 +1,15 @@
+* {
+    margin :0;
+    padding: 0;
+    list-style:none;
+}
+html,body {
+    height: 100%;
+}
+.el-breadcrumb {
+    height: 30px;
+    line-height: 30px;
+}
+.el-container .el-main {
+    line-height: 80px;
+}
